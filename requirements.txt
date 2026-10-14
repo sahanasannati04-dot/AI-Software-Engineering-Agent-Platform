@@ -1,0 +1,17 @@
+fastapi==0.141.1
+uvicorn[standard]==0.35.0
+pydantic-settings==2.11.0
+python-dotenv==1.1.1
+psycopg[binary]==3.3.6
+sqlalchemy==2.1.1
+alembic==1.20.0
+pgvector==0.5.0
+google-genai==2.27.0
+arq==0.27.0
+redis==5.3.1
+httpx==0.28.1
+pytest==8.4.2
+pwdlib[argon2]==0.3.0
+email-validator==2.3.0
+python-multipart==0.0.20
+httpx2==2.13.1

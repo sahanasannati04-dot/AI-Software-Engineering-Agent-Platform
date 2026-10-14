@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# FastAPI / Python tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js
+node_modules/
+.next/
+out/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+
+# Coverage
+.coverage
+htmlcov/
+
+# Docker
+*.pid
+test-results.txt
+# Generated repository workspaces
+backend/workspace/
+
+# Accidental command-output artifacts
+/backend/pytest
+/backend/python
+/backend/type
+
+README.backup.md
